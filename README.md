@@ -1,20 +1,20 @@
-# skeleton-java
+# personal-accounting
 
 <p align="center">
-    <a href="https://circleci.com/gh/clormor/skeleton-java">
-        <img src="https://img.shields.io/circleci/project/github/clormor/skeleton-java.svg?style=plastic" />
+    <a href="https://circleci.com/gh/clormor/personal-accounting">
+        <img src="https://img.shields.io/circleci/project/github/clormor/personal-accounting.svg?style=plastic" />
     </a>
-    <a href="https://maven-badges.herokuapp.com/maven-central/io.github.clormor/skeleton-java">
-        <img src="https://img.shields.io/maven-central/v/io.github.clormor/skeleton-java.svg?style=plastic" />
+    <a href="https://maven-badges.herokuapp.com/maven-central/io.github.clormor/personal-accounting">
+        <img src="https://img.shields.io/maven-central/v/io.github.clormor/personal-accounting.svg?style=plastic" />
     </a>
-    <a href="https://codeclimate.com/github/clormor/skeleton-java">
-        <img src="https://img.shields.io/codeclimate/coverage/clormor/skeleton-java.svg?style=plastic" />
+    <a href="https://codeclimate.com/github/clormor/personal-accounting">
+        <img src="https://img.shields.io/codeclimate/coverage/clormor/personal-accounting.svg?style=plastic" />
     </a>
-    <a href="https://codeclimate.com/github/clormor/skeleton-java/issues">
-        <img src="https://img.shields.io/codeclimate/maintainability/clormor/skeleton-java.svg?style=plastic" />
+    <a href="https://codeclimate.com/github/clormor/personal-accounting/issues">
+        <img src="https://img.shields.io/codeclimate/maintainability/clormor/personal-accounting.svg?style=plastic" />
     </a>
-    <a href="https://github.com/clormor/skeleton-java/commits">
-        <img src="https://img.shields.io/github/last-commit/clormor/skeleton-java.svg?style=plastic" />
+    <a href="https://github.com/clormor/personal-accounting/commits">
+        <img src="https://img.shields.io/github/last-commit/clormor/personal-accounting.svg?style=plastic" />
     </a>
 </p>
 
@@ -40,11 +40,11 @@ A skeleton project used as a template for creating java libraries.
 
 2. Clone this repository to a new folder
 
-        git clone git@github.com:clormor/skeleton-java.git <my-new-project> && cd <my-project>
+        git clone git@github.com:clormor/personal-accounting.git <my-new-project> && cd <my-project>
 
 3. Update the project name in all places where it is referenced
 
-        ./scripts/rename-project.sh skeleton-java <my-new-project>
+        ./scripts/rename-project.sh personal-accounting <my-new-project>
 
 4. Update the `modifyPom` closure in `build.gradle` with your porject name, license and developer information
 
@@ -84,7 +84,7 @@ A skeleton project used as a template for creating java libraries.
 
 13. Commit and push your changes to `develop`
 
-        git commit -am "initial commit initiated from https://github.com/clormor/skeleton-java"
+        git commit -am "initial commit initiated from https://github.com/clormor/personal-accounting"
         git push --set-upstream origin develop
 
 ## Performing the first release

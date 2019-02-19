@@ -109,15 +109,15 @@ nexusStaging {
 // update this section for your project
 modifyPom {
     project {
-        name 'Skeleton Java'
-        description 'A skeleton project used as a template for creating java libraries'
-        url 'https://github.com/clormor/skeleton-java'
+        name 'Personal Accounting'
+        description 'Java CLIs to process bank statements in various ways for managing my personal accounts / spreadhseets'
+        url 'https://github.com/clormor/personal-accounting'
         inceptionYear '2019'
 
         scm {
-            url 'https://github.com/clormor/skeleton-java'
-            connection 'git@github.com:clormor/skeleton-java.git'
-            developerConnection 'git@github.com:clormor/skeleton-java.git'
+            url 'https://github.com/clormor/personal-accounting'
+            connection 'git@github.com:clormor/personal-accounting.git'
+            developerConnection 'git@github.com:clormor/personal-accounting.git'
         }
 
         licenses {
